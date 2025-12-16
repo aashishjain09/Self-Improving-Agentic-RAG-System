@@ -1,0 +1,28 @@
+# We use pip "quiet" (-q) and "upgrade" (-U) flags to install all the required packages.
+
+# Agentic framework core
+langchain
+langgraph
+langchain_community
+langchain_openai
+langchain_groq
+langchain_core
+
+# The client library
+ollama
+
+pandas
+
+# An incredibly fast, in-process analytical database perfect for handling our structured MIMIC data without heavy server setup.
+duckdb
+faiss-cpu
+sentence-transformers
+
+# A suite of powerful utilities for downloading and parsing our diverse, real-world data sources.
+biopython
+pypdf
+pydantic
+lxml
+html2text
+beautifulsoup4
+matplotlib
